@@ -47,11 +47,11 @@ export default function Navbar() {
       {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div className="md:hidden bg-black px-4 pb-4 space-y-2">
-          <Link to="/" className="block hover:text-gray-300" onClick={toggleMenu}>Home</Link>
-          <Link to="/services" className="block hover:text-gray-300" onClick={toggleMenu}>Services</Link>
-          <Link to="/booking" className="block hover:text-gray-300" onClick={toggleMenu}>Booking</Link>
-          <Link to="/about" className="block hover:text-gray-300" onClick={toggleMenu}>About</Link>
-          <Link to="/contact" className="block hover:text-gray-300" onClick={toggleMenu}>Contact</Link>
+          <Link to="/" className="block hover:text-red-300" onClick={toggleMenu}>Home</Link>
+          <Link to="/services" className="block hover:text-red-300" onClick={toggleMenu}>Services</Link>
+          <Link to="/booking" className="block hover:text-red-300" onClick={toggleMenu}>Booking</Link>
+          <Link to="/about" className="block hover:text-red-300" onClick={toggleMenu}>About</Link>
+          <Link to="/contact" className="block hover:text-red-300" onClick={toggleMenu}>Contact</Link>
         </div>
       )}
     </nav>
